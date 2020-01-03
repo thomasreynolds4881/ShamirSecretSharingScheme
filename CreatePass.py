@@ -10,6 +10,7 @@ def generateList(f, s):
 		return slist
 
 	'''
+	# Split by chunks; not as random and much easier to decipher
 	tempstr = ""
 	midpos = 0
 	end = len(f)
@@ -44,9 +45,7 @@ def generateList(f, s):
 	stringlist = []
 	templist = []
 	while len(numlist) > 0:
-		print("num:",num)
 		for i in range(num):
-			print("len of numlist:", len(numlist))
 			if len(numlist) != 0:
 				templist.append(numlist.pop(random.randint(0,len(numlist)-1))) #grab a random number and put it on the templist
 		slist.append(templist)
