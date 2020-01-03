@@ -8,8 +8,7 @@ By splitting a password into segments that can only be solved once all/some of t
 Use CreatePass.py to create a password that will be split as many times as you'd like (at a max of the length of the string) and then use DecodePass.py to decode a complete list of these strings. If the list is incomplete, it will give a best guess.
 
 ## Goals
-[X] Make the generator much more random than it currently is.
-[ ] Allow an overlapping option so that three parts might be generated, but you only need two parts to solve the password.
+- Allow an overlapping option so that three parts might be generated, but you only need two parts to solve the password.
 
 ## Credit
 I had the idea to make this from the YouTube channel standupmaths: https://www.youtube.com/watch?v=K54ildEW9-Q
