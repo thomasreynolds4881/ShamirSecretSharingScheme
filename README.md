@@ -1,4 +1,4 @@
-# SimpleEncrpyt
+# SimpleEncrypt
 Generates and decodes strings using a simple method that divides the password randomly.
 
 ## How it works
